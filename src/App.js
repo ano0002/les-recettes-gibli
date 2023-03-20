@@ -6,12 +6,14 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Search from './components/Search';
 import Add from './components/Add';
+import Recipe from './components/Recipe';
 
 function App() {
   const navLinks = [
-    { name: 'Home', url: '/', element: <Home /> },
-    { name: 'Add Recipe', url: '/add', element: <Add /> },
-    { name: 'Advanced Search', url: '/search', element: <Search /> },
+    { name: 'Home', url: '/', element: <Home />, displayInNav: true },
+    { name: 'Add Recipe', url: '/add', element: <Add />, displayInNav: true },
+    { name: 'Advanced Search', url: '/search', element: <Search />, displayInNav: true },
+    { name: 'Recipe', url: '/recipe/:id', element: <Recipe />, displayInNav: false}
   ];
 
   return (
