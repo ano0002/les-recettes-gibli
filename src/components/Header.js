@@ -8,7 +8,7 @@ import Nav from "./Nav";
 import "../styles/Header.css";
 
 const Header = (props) => {
-    return (
+    return ( 
         <header>
             <NavLink to="/">
                 <img src={logo} alt="logo" />

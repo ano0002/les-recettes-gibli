@@ -2,7 +2,7 @@ header{
     width: 100%;
     display: flex;
     background-color: #97D8C4;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #7b7b7b;
     justify-content: space-between;
 }
 
